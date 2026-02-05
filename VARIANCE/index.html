@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>VARIANCE – Adobe Express Add-on</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="add-on-console-override.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Logo -->
+        <div class="logo">
+            <span>VARIANCE</span>
+        </div>
+        <div class="subtitle">
+            Design Globally, Resonate Locally
+        </div>
+
+        <!-- Regional Settings -->
+        <div class="section">
+            <label for="region">Region</label>
+            <select id="region">
+                <option value="">-- Select State --</option>
+                <option>Andhra Pradesh</option>
+                <option>Arunachal Pradesh</option>
+                <option>Assam</option>
+                <option>Bihar</option>
+                <option>Chhattisgarh</option>
+                <option>Goa</option>
+                <option>Gujarat</option>
+                <option>Haryana</option>
+                <option>Himachal Pradesh</option>
+                <option>Jharkhand</option>
+                <option>Karnataka</option>
+                <option>Kerala</option>
+                <option>Madhya Pradesh</option>
+                <option>Maharashtra</option>
+                <option>Manipur</option>
+                <option>Meghalaya</option>
+                <option>Mizoram</option>
+                <option>Nagaland</option>
+                <option>Odisha</option>
+                <option>Punjab</option>
+                <option>Rajasthan</option>
+                <option>Sikkim</option>
+                <option>Tamil Nadu</option>
+                <option>Telangana</option>
+                <option>Tripura</option>
+                <option>Uttar Pradesh</option>
+                <option>Uttarakhand</option>
+                <option>West Bengal</option>
+                <option>Andaman and Nicobar Islands</option>
+                <option>Chandigarh</option>
+                <option>Dadra and Nagar Haveli and Daman and Diu</option>
+                <option>Delhi</option>
+                <option>Jammu and Kashmir</option>
+                <option>Ladakh</option>
+                <option>Lakshadweep</option>
+                <option>Puducherry</option>
+            </select>
+        </div>
+
+        <!-- Language -->
+        <div class="section">
+            <label for="language">Language</label>
+            <select id="language" disabled>
+                <option value="">-- Select state first --</option>
+            </select>
+            <p class="form-hint" id="language-hint"
+                style="font-size: 0.85rem; color: var(--muted); margin-top: 6px; display: none;"></p>
+        </div>
+
+        <!-- Buttons -->
+        <button class="button btn-auth" id="btn-auth" onclick="handleAuthenticate()">
+            Analyze
+        </button>
+
+        <!-- Analysis Results Container -->
+        <div id="analysis-results-container" style="display: none;">
+            <div class="analysis-results-container">
+                <!-- Score Meter -->
+                <div class="score-meter" id="score-meter" style="display: none;">
+                    <span class="score-label">Regional Appropriateness Score</span>
+                    <div class="score-bar">
+                        <div class="score-fill" id="score-fill" style="width: 0%;"></div>
+                    </div>
+                    <span class="score-value" id="score-value">0/100</span>
+                </div>
+
+                <!-- Recommendations List -->
+                <div class="recommendations-list" id="recommendations-list" style="display: none;">
+                    <h4>Recommendations:</h4>
+                    <ul class="suggestions-list" id="recommendations-ul"></ul>
+                </div>
+
+                <!-- Analysis Content -->
+                <div class="result-container" id="analysis-content" style="display: none;">
+                    <div id="analysis-text"></div>
+                </div>
+
+                <!-- Loading State -->
+                <div class="loading-container" id="loading-container" style="display: none;">
+                    <div class="spinner"></div>
+                    <p class="loading-text" id="loading-text">Analyzing...</p>
+                </div>
+
+                <!-- Error Message -->
+                <div class="error-message" id="error-message" style="display: none;"></div>
+            </div>
+        </div>
+
+        <!-- Auth Result Container (from My_Draft) -->
+        <div id="auth-result-container" style="display: none;"></div>
+    </div>
+
+    <!-- UI Logic -->
+    <script type="module" src="index.js"></script>
+</body>
+
+</html>
