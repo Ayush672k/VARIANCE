@@ -1,4 +1,4 @@
-# VARIANCE 
+![img](VARIANCE/icon-144.png)# VARIANCE 
 
 **VARIANCE** is an AI-powered Adobe add-on that enhances documents and templates by adapting them to regional and cultural context.
 
