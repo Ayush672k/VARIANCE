@@ -2,7 +2,7 @@
 
 **VARIANCE** is an AI-powered Adobe add-on that enhances documents and templates by adapting them to regional and cultural context.
 
----
+-
 
 ## Inspiration
 During our internship, we worked closely with sales and marketing teams and noticed that most design templates lacked cultural and regional relevance—especially for Indian audiences. VARIANCE was created to bridge this gap using AI within Adobe’s ecosystem.
