@@ -4,12 +4,12 @@
 
 ---
 
-## Inspiration
+## INSPIRATION
 During our internship, we worked closely with sales and marketing teams and noticed that most design templates lacked cultural and regional relevance—especially for Indian audiences. VARIANCE was created to bridge this gap using AI within Adobe’s ecosystem.
 
 ---
 
-## What It Does
+## WHAT IT DOES
 - Analyzes text, colors, and design elements
 - Validates designs against Indian cultural datasets
 - Provides instant feedback using canvas metadata
@@ -17,7 +17,7 @@ During our internship, we worked closely with sales and marketing teams and noti
 
 ---
 
-## How We Built It
+## HOW WE BUILD IT
 - Extracted canvas metadata from Adobe
 - Fed data into an AI analysis pipeline
 - Validated design elements against cultural datasets
@@ -25,35 +25,35 @@ During our internship, we worked closely with sales and marketing teams and noti
 
 ---
 
-## Challenges
+## CHALLENGES
 - Managing AI context efficiently
 - Integrating real-time analysis into one-click actions
 - Ensuring performance inside an Adobe add-on
 
 ---
 
-## Accomplishments
+## ACCOMPLISHMENTS
 - Built a working prototype within limited time
 - Implemented core AI-driven validation logic
 - Demonstrated real-world applicability
 
 ---
 
-## What We Learned
+## WHAT WE LEARNED
 - AI-driven design validation
 - Context-aware content intelligence
 - Rapid prototyping under constraints
 
 ---
 
-## What’s Next
+## WHAT’S NEXT
 - Train a custom regional AI model
 - Expand datasets beyond India
 - Add multilingual and accessibility checks
 
 ---
 
-## Tech Stack
+## TECH STACK
 - JavaScript
 - Adobe Add-on APIs
 - AI/ML models
